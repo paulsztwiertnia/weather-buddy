@@ -15,7 +15,7 @@ const Weather = () => {
     const [city, setCity] = useState('Toronto');
     const [searchTerm, setSearchTerm] = useState('');
 
-    const apiKey = '00da85eee8b1c0631e3d29b84f835c32'; 
+    const apiKey = 'api_key_goes_here'; 
 
     const [weatherIcon, setWeatherIcon] = useState(clear_icon);
 
